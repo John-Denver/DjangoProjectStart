@@ -1,9 +1,13 @@
 # DjangoProjectStart
 
-Open folder where project will be on pycharm ide
+Open folder where project will be on pycharm ide or VS Code
+
+
+Create a virtual environment 
+    python -m venv envname
 if environment is not active;
 
-    -envname/Scripts/activate  
+    envname/Scripts/activate  
     pip install --upgrade pip
     pip install django
     django-admin startproject '[project name]' .   (dont forget the dot)
