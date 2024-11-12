@@ -3,8 +3,10 @@
 Open folder where project will be on pycharm ide or VS Code
 
 
-Create a virtual environment 
+Create a virtual environment
+
     python -m venv envname
+    
 if environment is not active;
 
     envname/Scripts/activate  
@@ -15,6 +17,7 @@ if environment is not active;
     
 On the terminal;
 
-  python manage.py runserver
-  python manage.py makemigrations
-  python manage.py migrate
+      python manage.py createsuperuser
+      python manage.py runserver
+      python manage.py makemigrations
+      python manage.py migrate
